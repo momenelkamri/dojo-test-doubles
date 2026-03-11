@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    "target": "ESNext",
+    "types": ["node", "vitest/importMeta", "vitest/globals"],
+
+    /* Modules */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "moduleDetection": "force",
+    "baseUrl": ".",
+    "allowJs": true,
+    "resolveJsonModule": true,
+
+    /* Interop */
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Emit */
+    "outDir": "dist",
+    "rootDir": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+
+    /* Build */
+    "composite": true,
+    "incremental": true,
+    "skipLibCheck": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUnusedLocals": false /* Allow unused variables for kata purposes */,
+    "noUnusedParameters": false /* Allow unused parameters for kata purposes */,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true
+  },
+  "include": ["src", "tests"],
+  "exclude": ["dist", "node_modules"]
+}
